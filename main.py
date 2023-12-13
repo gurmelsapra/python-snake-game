@@ -35,3 +35,5 @@ while game_is_on:
     if new_snake.head.xcor() > 280 or new_snake.head.xcor() < -280 or new_snake.head.ycor() > 280 or new_snake.head.ycor() < -280:
         game_is_on = False
         scoreboard.game_over()
+
+screen.exitonclick()
